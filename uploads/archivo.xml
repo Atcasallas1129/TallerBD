@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<conjunto>
+	<atributos>
+	   <item_atributo>A</item_atributo>
+	   <item_atributo>B</item_atributo>
+	   <item_atributo>C</item_atributo>
+	   <item_atributo>D</item_atributo>
+	</atributos>
+	<dependencias>
+		<item_depen>A,C=>B</item_depen>
+		<item_depen>B=>C</item_depen>
+		<item_depen>C=>D</item_depen>
+		<item_depen>A,C=>C,A</item_depen>
+		<item_depen>A=>A</item_depen>
+	</dependencias>
+</conjunto>
